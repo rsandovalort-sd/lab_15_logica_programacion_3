@@ -12,12 +12,13 @@ function calcularFactorial(){
     
     const card = document.createElement("div");
     card.className = "card align-middle";
-    card.style.width = "18rem";
+    card.style.width = "25rem";
     card.style.boxShadow = "4px 4px 4px 4px #424040ff";
 
 
     const contenido_card = document.createElement("div");
-    contenido_card.className = "card-body";
+    contenido_card.className = "card-body resultados";
+    contenido_card.style.display = "justify-content"
     const titulo_h2 = document.createElement("h2");
     titulo_h2.className = "card-title";
     titulo_h2.textContent = numero + "! = " + factorial;
@@ -28,4 +29,9 @@ function calcularFactorial(){
 
     document.getElementById("numero").value = "";
 
+}
+
+function borrar(){
+    const contenedor = document.getElementById("resultado");
+    contenedor.innerHTML = "";
 }

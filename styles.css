@@ -3,8 +3,23 @@ body{
 }
 
 
-
 .boton:hover{
-    background-color: #d90082 !important;
+    background-color: #02083d !important;
     
 }
+
+#resultado{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.resultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
