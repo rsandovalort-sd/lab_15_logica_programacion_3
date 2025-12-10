@@ -2,9 +2,7 @@ body{
     background-color: #ece7f5 !important;
 }
 
-.boton{
-    background-color:brown !important;
-}
+
 
 .boton:hover{
     background-color: #d90082 !important;
