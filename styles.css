@@ -1,25 +1,49 @@
 body{
-    background-color: #ece7f5 !important;
+    background-color: #f2eefc !important;
+    font-family: "Poppins", sans-serif;
 }
 
+.titulo{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2a2267;
+}
+
+.tarjeta_input{
+    width: 100%;
+    border-radius: 20px;
+    transition: transform .3s !important;
+
+}
+
+.tarjeta_input :hover{
+    transform: scale(1.02) !important;
+}
+
+.boton{
+    transition: background-color .2s, transform .2s !important;
+}
 
 .boton:hover{
-    background-color: #02083d !important;
+    background-color: #1c1e5c !important;
+    transform: scale(1.03);
     
 }
 
 #resultado{
     padding: 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .resultados{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
+
 
